@@ -8,7 +8,7 @@ body {
 
 .header_container {
   display: flex;
-  flex-direction: ro;
+  flex-direction: row;
   justify-content: space-between;
   padding: 14px 0 8px 0;
   background-color: rgb(27, 68, 68);
@@ -17,11 +17,36 @@ body {
 .header_logo {
 }
 
+
 .logo_image {
 }
 
 .header_menu {
-  flex-flow: row wrap;
+  display: flex;
+  width: 400px;
+}
+
+.icon {
+  display: flex;
+  width: 100px;
+  margin: 10px;
+  align-items: flex-end;
+justify-content: space-around;
+}
+
+.teamoca{
+  color:aquamarine;
+  font-size:30px;
+  margin: 0px 0px 0px 20px;
+}
+
+.aiu{
+  display:flex;
+  color:aliceblue;
+  width:50%;
+  height:180px;
+  overflow-wrap: break-word;
+  margin: 0px 0px 0px 20px;
 }
 
 /* リンク文字 */
