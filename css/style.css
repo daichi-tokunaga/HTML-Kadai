@@ -17,7 +17,6 @@ body {
 .header_logo {
 }
 
-
 .logo_image {
 }
 
@@ -31,22 +30,126 @@ body {
   width: 100px;
   margin: 10px;
   align-items: flex-end;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
-.teamoca{
-  color:aquamarine;
-  font-size:30px;
+.teamoca {
+  color: aquamarine;
+  font-size: 30px;
   margin: 0px 0px 0px 20px;
 }
 
-.aiu{
-  display:flex;
-  color:aliceblue;
-  width:50%;
-  height:180px;
+.aiu {
+  display: flex;
+  color: aliceblue;
+  width: 50%;
+  height: 180px;
   overflow-wrap: break-word;
   margin: 0px 0px 0px 20px;
+}
+
+.midcontainor {
+}
+
+.memberbox {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.member {
+  background-color: rgb(68, 56, 240);
+  display: flex;
+  width: 15%;
+  margin: 1%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.memberimg {
+  display: flex;
+  justify-content: center;
+}
+.memberimg img {
+  width: 90%;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+}
+
+.membertag {
+  display: flex;
+  background-color: white;
+  color: lightgreen;
+  font-size: 30px;
+}
+
+.memberheader {
+  margin-left: 10px;
+}
+
+.gametag {
+  display: flex;
+  background-color: navy;
+  color: lightgreen;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.gameheader {
+  margin-left: 50px;
+}
+
+.gamebox {
+  background-color: navy;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.gamename {
+  color: white;
+  font-size: 20px;
+}
+
+.gametitle {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+
+.lastcontainor {
+}
+
+.contactbox {
+  background-color: palevioletred;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.contacttag {
+  display: flex;
+  background-color: palevioletred;
+  color: lightgreen;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.contactheader {
+  margin-left: 50px;
 }
 
 /* リンク文字 */
